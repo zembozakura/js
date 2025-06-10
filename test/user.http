@@ -1,0 +1,15 @@
+POST http://localhost:3000/api/login
+Accept: application/json
+Content-Type: application/json
+
+{
+    "username": "admin",
+    "password": "1234"
+}
+
+###
+
+GET http://localhost:3000/api/user
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODQzNzhiNmFlODZiNmE2MmRkZmYxODgiLCJ1c2VybmFtZSI6ImFkbWluIiwiZnVsbE5hbWUiOiJBZG1pbiIsInJvbGVzIjpbImFkbWluIl0sImlhdCI6MTc0OTI1MjM3NywiZXhwIjoxNzQ5MjU1OTc3fQ.vahA5eSfyvEskzjlGm7HKiGkbHOegYNAOR3LSblUXtQ
+Content-Type: application/json
